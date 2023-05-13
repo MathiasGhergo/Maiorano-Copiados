@@ -77,6 +77,7 @@ text-transform: none;
     background-color: white;
 }
 .articulo{
+    box-shadow: 14px 10px 5px 0px rgba(0,0,0,0.75);
     & h2{
         padding-top: 30px;
         padding-bottom: 40px;
@@ -102,13 +103,34 @@ text-shadow: 4px 3px 0 #7A7A7A;
         padding-bottom: 60px;
       }
     }
+   .art{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        text-align: center;
+        background: rgb(255,255,255);
+        background: linear-gradient(86deg, rgba(255,255,255,1) 3%, rgba(153,110,222,1) 52%, rgba(177,158,228,1) 81%);
+        box-shadow: 14px 10px 5px 0px rgba(0,0,0,0.75);
+    }
     .articulo__2{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
        padding-top: 50px;
     border-radius: 20px;
+    height: 100%;
+    width: 100%;
+
+    & strong{
+        font-size: 23px;
+        padding: 30px;
+    }
 
        & h2{
         text-align: center;
-        font-size: 32px;
+        font-size: 36px;
         padding-bottom: 30px;
        }
        & ul{
@@ -120,7 +142,7 @@ text-shadow: 4px 3px 0 #7A7A7A;
         justify-content: center;
        }
        & li{
-        font-size: 18px;
+        font-size: 20px;
         text-align: justify;
         list-style: none;
        }
@@ -163,6 +185,7 @@ text-shadow: 4px 3px 0 #7A7A7A;
         }
            .maio{
             padding-top: 40px;
+            padding:90px;
             height: 100%;
             width: 100%;
            }
@@ -260,15 +283,27 @@ text-shadow: 4px 3px 0 #7A7A7A;
                 padding-bottom: 60px;
               }
         }
+        .art{
+            display: flex;
+           flex-direction: row;
+        }
         .articulo__2{
+            flex: 1;
             padding-top: 50px;
          border-radius: 20px;
          padding-bottom: 50px;
+         height: 100%;
+         height: 100%;
      
             & h2{
+                flex: 1;
              text-align: center;
              font-size: 42px;
              padding-bottom: 30px;
+            }
+            & strong{
+                font-size: 30px;
+                padding: 30px;
             }
             & ul{
              font-size: 30px;

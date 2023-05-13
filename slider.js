@@ -8,7 +8,7 @@ function startSlider() {
   if (currentItem >= sliderItems.length) {
     currentItem = 0;
   }
-  setTimeout(startSlider, 5000);
+  setTimeout(startSlider, 3000);
 }
 
 function resetSlider() {

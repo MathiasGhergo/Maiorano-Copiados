@@ -78,6 +78,9 @@ header nav a {
   background-color: white;
 }
 
+.articulo {
+  box-shadow: 14px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
 .articulo h2 {
   padding-top: 30px;
   padding-bottom: 40px;
@@ -103,13 +106,34 @@ header nav a {
   padding-bottom: 60px;
 }
 
+.art {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(86deg, rgb(255, 255, 255) 3%, rgb(153, 110, 222) 52%, rgb(177, 158, 228) 81%);
+  box-shadow: 14px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
 .articulo__2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
   padding-top: 50px;
   border-radius: 20px;
+  height: 100%;
+  width: 100%;
+}
+.articulo__2 strong {
+  font-size: 23px;
+  padding: 30px;
 }
 .articulo__2 h2 {
   text-align: center;
-  font-size: 32px;
+  font-size: 36px;
   padding-bottom: 30px;
 }
 .articulo__2 ul {
@@ -121,7 +145,7 @@ header nav a {
   justify-content: center;
 }
 .articulo__2 li {
-  font-size: 18px;
+  font-size: 20px;
   text-align: justify;
   list-style: none;
 }
@@ -164,6 +188,7 @@ header nav a {
 
 .maio {
   padding-top: 40px;
+  padding: 90px;
   height: 100%;
   width: 100%;
 }
@@ -255,15 +280,27 @@ footer img {
     padding-top: 40px;
     padding-bottom: 60px;
   }
+  .art {
+    display: flex;
+    flex-direction: row;
+  }
   .articulo__2 {
+    flex: 1;
     padding-top: 50px;
     border-radius: 20px;
     padding-bottom: 50px;
+    height: 100%;
+    height: 100%;
   }
   .articulo__2 h2 {
+    flex: 1;
     text-align: center;
     font-size: 42px;
     padding-bottom: 30px;
+  }
+  .articulo__2 strong {
+    font-size: 30px;
+    padding: 30px;
   }
   .articulo__2 ul {
     font-size: 30px;
