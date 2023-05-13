@@ -78,7 +78,16 @@ header nav a {
   background-color: white;
 }
 
+.img {
+  width: 100%;
+  height: 100%;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
 .articulo {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(86deg, rgb(255, 255, 255) 3%, rgb(153, 110, 222) 52%, rgb(177, 158, 228) 81%);
   box-shadow: 14px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 .articulo h2 {
@@ -86,13 +95,9 @@ header nav a {
   padding-bottom: 40px;
   font-size: 38px;
   text-align: center;
-  color: #FFFFFF;
-  background: #b8b8b8;
-  text-shadow: 4px 3px 0 #7A7A7A;
 }
 .articulo p {
   font-family: system-ui;
-  background: #b8b8b8;
   font-size: 24px;
   text-align: center;
   padding: 40px;
@@ -100,8 +105,6 @@ header nav a {
 .articulo img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: bottom;
   padding-top: 40px;
   padding-bottom: 60px;
 }
@@ -137,6 +140,7 @@ header nav a {
   padding-bottom: 30px;
 }
 .articulo__2 ul {
+  text-align: center;
   font-size: 22px;
   display: flex;
   flex-direction: column;
@@ -309,10 +313,11 @@ footer img {
     gap: 12px;
     align-items: center;
     justify-content: center;
+    text-align: center;
   }
   .articulo__2 li {
     font-size: 23px;
-    text-align: justify;
+    text-align: center;
     list-style: none;
   }
   .titulo__ubi {
